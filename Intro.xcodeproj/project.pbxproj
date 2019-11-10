@@ -12,6 +12,8 @@
 		1293CB9F2377371B00C586E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1293CB9D2377371B00C586E0 /* Main.storyboard */; };
 		1293CBA12377371E00C586E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1293CBA02377371E00C586E0 /* Assets.xcassets */; };
 		1293CBA42377371E00C586E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1293CBA22377371E00C586E0 /* LaunchScreen.storyboard */; };
+		1293CBAC23780FE900C586E0 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1293CBAB23780FE900C586E0 /* SwipingController.swift */; };
+		1293CBAE2378186800C586E0 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1293CBAD2378186800C586E0 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1293CBA02377371E00C586E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1293CBA32377371E00C586E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1293CBA52377371E00C586E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1293CBAB23780FE900C586E0 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		1293CBAD2378186800C586E0 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1293CBA02377371E00C586E0 /* Assets.xcassets */,
 				1293CBA22377371E00C586E0 /* LaunchScreen.storyboard */,
 				1293CBA52377371E00C586E0 /* Info.plist */,
+				1293CBAB23780FE900C586E0 /* SwipingController.swift */,
+				1293CBAD2378186800C586E0 /* PageCell.swift */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				1293CB9C2377371B00C586E0 /* ViewController.swift in Sources */,
 				1293CB9A2377371B00C586E0 /* AppDelegate.swift in Sources */,
+				1293CBAE2378186800C586E0 /* PageCell.swift in Sources */,
+				1293CBAC23780FE900C586E0 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     //let`s avoid polluting viewDidLoad
     //{} is reffered as closure or anonymus function
     let TinderImageView: UIImageView = {
-          let imageView = UIImageView(image: #imageLiteral(resourceName: "tinder1"))
+          let imageView = UIImageView(image: #imageLiteral(resourceName: "tinder-logo-png-open-2000"))
           imageView.translatesAutoresizingMaskIntoConstraints = false
           imageView.contentMode = .scaleAspectFit
           return imageView
@@ -34,9 +34,6 @@ class ViewController: UIViewController {
         
         textView.attributedText = attributedText
         
-//        textView.text = "whatever for now"
-//        textView.font = UIFont.boldSystemFont(ofSize: 18)
-//
         textView.textAlignment = .center
         textView.translatesAutoresizingMaskIntoConstraints = false
         textView.isEditable = false
@@ -128,8 +125,7 @@ class ViewController: UIViewController {
              descriptionTextView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -24),
              descriptionTextView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
         ])
-        
-
+    
     }
 }
 
