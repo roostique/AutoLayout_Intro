@@ -8,16 +8,34 @@
 
 import UIKit
 
+
 class PageCell: UICollectionViewCell {
     
-    let TinderImageView: UIImageView = {
-        let imageView = UIImageView(image: #imageLiteral(resourceName: "tinder-logo-png-open-2000"))
+    var page: Page? {
+        
+        didSet{
+            guard let unwrappedPage = page else { return }
+            
+            TinderImageView.image = UIImage(named: unwrappedPage.imageName)
+            
+            let attributedText = NSMutableAttributedString(string: unwrappedPage.headerText, attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 22)])
+            
+            attributedText.append(NSAttributedString(string: "\n\n\(unwrappedPage.bodyText)", attributes: [NSAttributedString.Key.font : UIFont.italicSystemFont(ofSize: 14),NSAttributedString.Key.foregroundColor : UIColor.red]))
+            
+            descriptionTextView.attributedText = attributedText
+            descriptionTextView.textAlignment = .center
+    
+        }
+    }
+    
+    private let TinderImageView: UIImageView = {
+        let imageView = UIImageView(image: #imageLiteral(resourceName: "tinder1"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
     
-    let descriptionTextView: UITextView = {
+    private let descriptionTextView: UITextView = {
         
         let textView = UITextView()
         

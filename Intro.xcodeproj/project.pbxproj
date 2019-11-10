@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12579D3923782AD900A73602 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12579D3823782AD900A73602 /* Page.swift */; };
+		129132FA23786F1B00719BE0 /* SwipingControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129132F923786F1B00719BE0 /* SwipingControllerExtension.swift */; };
+		129132FC2378702400719BE0 /* SwipingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129132FB2378702400719BE0 /* SwipingController+UICollectionView.swift */; };
 		1293CB9A2377371B00C586E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1293CB992377371B00C586E0 /* AppDelegate.swift */; };
 		1293CB9C2377371B00C586E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1293CB9B2377371B00C586E0 /* ViewController.swift */; };
 		1293CB9F2377371B00C586E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1293CB9D2377371B00C586E0 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12579D3823782AD900A73602 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		129132F923786F1B00719BE0 /* SwipingControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingControllerExtension.swift; sourceTree = "<group>"; };
+		129132FB2378702400719BE0 /* SwipingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionView.swift"; sourceTree = "<group>"; };
 		1293CB962377371B00C586E0 /* Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1293CB992377371B00C586E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1293CB9B2377371B00C586E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				1293CBA52377371E00C586E0 /* Info.plist */,
 				1293CBAB23780FE900C586E0 /* SwipingController.swift */,
 				1293CBAD2378186800C586E0 /* PageCell.swift */,
+				12579D3823782AD900A73602 /* Page.swift */,
+				129132F923786F1B00719BE0 /* SwipingControllerExtension.swift */,
+				129132FB2378702400719BE0 /* SwipingController+UICollectionView.swift */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129132FA23786F1B00719BE0 /* SwipingControllerExtension.swift in Sources */,
 				1293CB9C2377371B00C586E0 /* ViewController.swift in Sources */,
 				1293CB9A2377371B00C586E0 /* AppDelegate.swift in Sources */,
+				129132FC2378702400719BE0 /* SwipingController+UICollectionView.swift in Sources */,
 				1293CBAE2378186800C586E0 /* PageCell.swift in Sources */,
 				1293CBAC23780FE900C586E0 /* SwipingController.swift in Sources */,
+				12579D3923782AD900A73602 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

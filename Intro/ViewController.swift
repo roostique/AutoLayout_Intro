@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     //let`s avoid polluting viewDidLoad
     //{} is reffered as closure or anonymus function
     let TinderImageView: UIImageView = {
-          let imageView = UIImageView(image: #imageLiteral(resourceName: "tinder-logo-png-open-2000"))
+          let imageView = UIImageView(image: #imageLiteral(resourceName: "tinder1"))
           imageView.translatesAutoresizingMaskIntoConstraints = false
           imageView.contentMode = .scaleAspectFit
           return imageView
